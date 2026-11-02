@@ -89,7 +89,11 @@ export default function Home() {
               <Link className="button button-primary" href="/projects">
                 <Icon name="terminal" /> View Projects <Icon name="arrow" />
               </Link>
-              <a className="button button-outline" href="mailto:">
+              <a
+                className="button button-outline"
+                download="Angolo_Isaac_Jr_CV.pdf"
+                href="/Angolo_Isaac_Jr_CV.pdf"
+              >
                 <Icon name="download" /> Download CV
               </a>
             </div>

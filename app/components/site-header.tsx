@@ -61,7 +61,11 @@ export function SiteHeader({ activePage }: { activePage: SitePage }) {
           </a>
         </div>
         <div className="nav-actions">
-          <a className="button button-outline button-small" href="mailto:">
+          <a
+            className="button button-outline button-small"
+            download="Angolo_Isaac_Jr_CV.pdf"
+            href="/Angolo_Isaac_Jr_CV.pdf"
+          >
             Download CV
           </a>
           <a className="button button-primary button-small" href="mailto:">
